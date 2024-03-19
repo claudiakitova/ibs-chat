@@ -7,7 +7,7 @@ from gui.layout import Layout
 from gui.sidebar import Sidebar, Utilities
 
 if __name__ == '__main__':
-    st.set_page_config(layout="wide", page_icon="💬", page_title="БКС Ассистент")
+    st.set_page_config(layout="wide", page_icon="💬", page_title="Цифровой сотрудник IBS")
     layout, sidebar, utils = Layout(), Sidebar(), Utilities()
 
     layout.show_header()
