@@ -8,7 +8,7 @@ class Layout:
         """
         st.markdown(
             """
-            <h1 style='text-align: center;'>БКС Ассистент 💬</h1>
+            <h1 style='text-align: center;'>Цифровой сотрудник IBS 💬</h1>
             """,
             unsafe_allow_html=True,
         )
@@ -20,7 +20,7 @@ class Layout:
         st.markdown(
             """
             <div style='text-align: center;'>
-                <h4>Цифровой помощник IBS</h4>
+                <h4>Ваш виртуальный помощник</h4>
             </div>
             """,
             unsafe_allow_html=True,
