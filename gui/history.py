@@ -15,7 +15,7 @@ class ChatHistory:
         return "Привет!"
 
     def default_prompt(self, topic):
-        return f"Привет! Я ваш помощник в финансовой аналитике. Хотите что-нибудь узнать?"
+        return f"Привет! Я - виртуальный сотрудник компании IBS. Хотите что-нибудь узнать?"
 
     def initialize(self, topic):
         message(self.default_greeting(), key='hi', avatar_style="shapes", is_user=True)
