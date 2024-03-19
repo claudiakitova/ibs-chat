@@ -20,7 +20,7 @@ class Layout:
         st.markdown(
             """
             <div style='text-align: center;'>
-                <h4>Ваш ассистент в мире финансов</h4>
+                <h4>Цифровой помощник IBS</h4>
             </div>
             """,
             unsafe_allow_html=True,
