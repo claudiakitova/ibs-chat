@@ -45,7 +45,7 @@ class Sidebar:
     def show_options(self):
         with st.sidebar.expander("Настройки", expanded=True):
             self.reset_chat_button()
-            # self.model_selector()
+            self.model_selector()
             self.temperature_slider()
             st.session_state.setdefault("model", self.MODEL_OPTIONS[0])
             st.session_state.setdefault("temperature", self.TEMPERATURE_DEFAULT_VALUE)
